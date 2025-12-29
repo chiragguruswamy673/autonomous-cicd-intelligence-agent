@@ -114,7 +114,7 @@ A deployment recommendation is returned with explanation
 
 - CI - GitHub Actions
 
-- Language	Python 3.11
+- Language -	Python 3.11
 
 ## ▶️ Running Locally
 1️⃣ Setup Environment
