@@ -1,5 +1,6 @@
 # 🚀 Autonomous CI/CD Intelligence Agent
 ![CI](https://github.com/chiragguruswamy673/autonomous-cicd-intelligence-agent/actions/workflows/ci.yml/badge.svg)
+
 An AI-powered CI/CD decision system that analyzes code changes, retrieves
 historical incidents using **semantic RAG**, and produces intelligent
 deployment recommendations.
