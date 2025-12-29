@@ -1,0 +1,12 @@
+[
+  {
+    "incident": "Login deployment caused auth failures",
+    "cause": "JWT secret mismatch",
+    "resolution": "Rollback deployment"
+  },
+  {
+    "incident": "High memory usage after API release",
+    "cause": "Unbounded caching",
+    "resolution": "Clear cache and redeploy"
+  }
+]
