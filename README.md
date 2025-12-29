@@ -37,21 +37,22 @@ This system introduces an **AI reasoning layer** that:
 
 ---
 
-## 🏗️ High-Level Architecture
+## 🏗️ Architecture
 
 CI/CD Event (Commit, Tests, Files)
 ↓
+
 FastAPI Endpoint
 ↓
+
 Semantic RAG Engine
 (FAISS + Embeddings)
 ↓
+
 Decision Agent
 ↓
-Deployment Recommendation
 
-yaml
-Copy code
+Deployment Recommendation
 
 ---
 
