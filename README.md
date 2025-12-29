@@ -40,19 +40,23 @@ This system introduces an **AI reasoning layer** that:
 ## 🏗️ Architecture
 
 CI/CD Event (Commit, Tests, Files)
+
 ↓
 
 FastAPI Endpoint
+
 ↓
 
 Semantic RAG Engine
 (FAISS + Embeddings)
+
 ↓
 
 Decision Agent
+
 ↓
 
-Deployment Recommendation
+Deployment 
 
 ---
 
@@ -67,7 +71,6 @@ Deployment Recommendation
 ```
 ## 📤 Example Output
 ```json
-Copy code
 {
   "deployment_decision": {
     "risk": "HIGH",
@@ -101,13 +104,17 @@ Past failures
 A deployment recommendation is returned with explanation
 
 ## 🛠️ Tech Stack
-Category	Technology
-Backend	FastAPI
-AI / RAG	LangChain-style architecture
-Embeddings	HuggingFace sentence-transformers
-Vector DB	FAISS
-CI	GitHub Actions
-Language	Python 3.11
+- Backend - FastAPI
+
+- AI / RAG - LangChain-style architecture
+
+- Embeddings - HuggingFace sentence-transformers
+
+- Vector - DB	FAISS
+
+- CI - GitHub Actions
+
+- Language	Python 3.11
 
 ## ▶️ Running Locally
 1️⃣ Setup Environment
@@ -116,14 +123,17 @@ Copy code
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+
 2️⃣ Start the Service
 bash
 Copy code
 uvicorn app.main:app --reload
+
 3️⃣ Open API Docs
 arduino
 Copy code
 http://127.0.0.1:8000/docs
+
 🔁 CI/CD Pipeline
 This repository includes a GitHub Actions CI pipeline that:
 
